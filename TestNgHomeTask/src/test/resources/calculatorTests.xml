@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UnitTestsSuite" parallel="classes" thread-count="2" verbose="1" >
+	<listeners>
+		<listener class-name="com.epam.listeners.CustomListener"></listener>
+	</listeners>
+	<test name="UnitTestsforCalculator">
+		<groups>
+			<run>
+				<exclude name = "optionalTests"></exclude> 
+			</run>
+		</groups>
+		<classes>
+			<class name="com.epam.calculatorTests.CalculatorTests" />
+		</classes>
+	</test>
+
+	<test name="FailedTests">
+		<classes>
+			<class name="com.epam.calculatorTests.FailedTests" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [UnitTestsSuite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.epam.listeners.CustomListener"/>
+  </listeners>
+  <test name="UnitTestsforCalculator(failed)" parallel="classes">
+    <groups>
+      <run>
+        <exclude name="optionalTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.epam.calculatorTests.CalculatorTests">
+        <methods>
+          <include name="printAfterClass"/>
+          <include name="printSuiteName"/>
+          <include name="getCalculator"/>
+          <include name="printMethodName"/>
+          <include name="printSuiteNameAfterSuite"/>
+          <include name="printSuccessTests"/>
+          <include name="multiplicationOfDouble" invocation-numbers="0 1 2"/>
+          <include name="printTestName"/>
+          <include name="cotangetOfdouble" invocation-numbers="0 1 2"/>
+          <include name="printMethodStatus"/>
+        </methods>
+      </class> <!-- com.epam.calculatorTests.CalculatorTests -->
+    </classes>
+  </test> <!-- UnitTestsforCalculator(failed) -->
+  <test name="FailedTests(failed)" parallel="classes">
+    <classes>
+      <class name="com.epam.calculatorTests.FailedTests">
+        <methods>
+          <include name="powerOfDouble"/>
+          <include name="productOfDouble"/>
+          <include name="tangentofDouble"/>
+          <include name="divideByZero"/>
+          <include name="cosineOfDouble"/>
+          <include name="cotangentofDouble"/>
+        </methods>
+      </class> <!-- com.epam.calculatorTests.FailedTests -->
+    </classes>
+  </test> <!-- FailedTests(failed) -->
+</suite> <!-- Failed suite [UnitTestsSuite] -->

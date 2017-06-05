@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="12" ignored="1" total="37" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UnitTestsSuite" duration-ms="123" started-at="2017-06-01T16:53:24Z" finished-at="2017-06-01T16:53:24Z">
+    <groups>
+      <group name="TrigonometricTests">
+        <method signature="CalculatorTests.cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cosineOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cotangetOfdouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="tangentOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+      </group> <!-- TrigonometricTests -->
+      <group name="PositiveTests">
+        <method signature="CalculatorTests.cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cotangetOfdouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="divisionOfLong" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="multiplicationOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.squarerootOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="squarerootOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.sumOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="sumOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+      </group> <!-- PositiveTests -->
+      <group name="NegativeTests">
+        <method signature="CalculatorTests.cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cosineOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.differenceOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="differenceOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.isPositiveNumber(long, boolean)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="isPositiveNumber" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="powerOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="tangentOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+      </group> <!-- NegativeTests -->
+      <group name="AlgebraTests">
+        <method signature="CalculatorTests.differenceOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="differenceOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="divisionOfLong" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.isPositiveNumber(long, boolean)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="isPositiveNumber" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="multiplicationOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="powerOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.squarerootOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="squarerootOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.sumOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="sumOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+      </group> <!-- AlgebraTests -->
+      <group name="failed">
+        <method signature="CalculatorTests.cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cosineOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cotangetOfdouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="divisionOfLong" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="multiplicationOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="powerOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+        <method signature="CalculatorTests.tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="tangentOfDouble" class="com.epam.calculatorTests.CalculatorTests"/>
+      </group> <!-- failed -->
+    </groups>
+    <test name="UnitTestsforCalculator" duration-ms="82" started-at="2017-06-01T16:53:24Z" finished-at="2017-06-01T16:53:24Z">
+      <class name="com.epam.calculatorTests.CalculatorTests">
+        <test-method status="PASS" signature="printTestName(org.testng.ITestContext)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printTestName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4973813a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestName -->
+        <test-method status="PASS" signature="getCalculator()[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="getCalculator" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalculator -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cosineOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cosineOfDouble" duration-ms="5" started-at="2017-06-01T22:23:24Z" data-provider="cosineOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.256]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20.96741056649]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosineOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cosineOfDouble status=SUCCESS method=CalculatorTests.cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cosineOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cosineOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="cosineOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-20.41614683654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosineOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cosineOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cosineOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="cosineOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosineOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cosineOfDouble status=SUCCESS method=CalculatorTests.cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cosineOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cosineOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cosineOfDouble status=SUCCESS method=CalculatorTests.cosineOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cosineOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="FAIL" signature="cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cotangetOfdouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="cotangentOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.64209261593]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.64209261593] but found [0.7615941559557649]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.64209261593] but found [0.7615941559557649]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(CalculatorTests.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangetOfdouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="FAIL" signature="cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cotangetOfdouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="cotangentOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.256]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.82054149728]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3.82054149728] but found [0.25055040799817446]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3.82054149728] but found [0.25055040799817446]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(CalculatorTests.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangetOfdouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cotangetOfdouble status=FAILURE method=CalculatorTests.cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cotangetOfdouble status=FAILURE method=CalculatorTests.cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="FAIL" signature="cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="cotangetOfdouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" data-provider="cotangentOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.75]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.07342614855]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.07342614855] but found [0.6351489523872873]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.07342614855] but found [0.6351489523872873]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(CalculatorTests.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangetOfdouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cotangetOfdouble status=FAILURE method=CalculatorTests.cotangetOfdouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.cotangetOfdouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.differenceOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="differenceOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="differenceOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="differenceOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[44701.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[198.4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[244502.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differenceOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=differenceOfDouble status=SUCCESS method=CalculatorTests.differenceOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.differenceOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.differenceOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="differenceOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="differenceOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="differenceOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[256.53]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6789.23654]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-26532.70654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differenceOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=differenceOfDouble status=SUCCESS method=CalculatorTests.differenceOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.differenceOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="differenceOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="differenceOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="differenceOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5365.1452]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20.1547]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5364.9905]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differenceOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.differenceOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=differenceOfDouble status=SUCCESS method=CalculatorTests.differenceOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.differenceOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="divisionOfLong" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="divisionOfLong" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3004230]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6793368]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionOfLong -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.divisionOfLong(long,long,long)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.divisionOfLong(long,long,long)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=divisionOfLong status=SUCCESS method=CalculatorTests.divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.divisionOfLong(long,long,long)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="divisionOfLong" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="divisionOfLong" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[944134134]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[81432713]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionOfLong -->
+        <test-method status="PASS" signature="divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="divisionOfLong" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="divisionOfLong" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[998925055]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[944134134]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionOfLong -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=divisionOfLong status=SUCCESS method=CalculatorTests.divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.divisionOfLong(long,long,long)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.divisionOfLong(long,long,long)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=divisionOfLong status=SUCCESS method=CalculatorTests.divisionOfLong(long, long, long)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.divisionOfLong(long,long,long)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.isPositiveNumber(long,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="isPositiveNumber(long, boolean)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="isPositiveNumber" duration-ms="0" started-at="2017-06-01T22:23:24Z" data-provider="isPositiveNumber" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[944134134]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPositiveNumber -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isPositiveNumber status=SUCCESS method=CalculatorTests.isPositiveNumber(long, boolean)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.isPositiveNumber(long,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.isPositiveNumber(long,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="isPositiveNumber(long, boolean)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="isPositiveNumber" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="isPositiveNumber" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-814327130]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPositiveNumber -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isPositiveNumber status=SUCCESS method=CalculatorTests.isPositiveNumber(long, boolean)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.isPositiveNumber(long,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="isPositiveNumber(long, boolean)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="isPositiveNumber" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="isPositiveNumber" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[998958624]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPositiveNumber -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.isPositiveNumber(long,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isPositiveNumber status=SUCCESS method=CalculatorTests.isPositiveNumber(long, boolean)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.isPositiveNumber(long,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="FAIL" signature="multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="multiplicationOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="multiplicationOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[198.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44701.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8868718.08]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [8868718.08] but found [8868718.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [8868718.08] but found [8868718.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(CalculatorTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiplicationOfDouble status=FAILURE method=CalculatorTests.multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="FAIL" signature="multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="multiplicationOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="multiplicationOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[256.53]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6789.23654]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1741642.8496062]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1741642.8496062] but found [1741642.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1741642.8496062] but found [1741642.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(CalculatorTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiplicationOfDouble status=FAILURE method=CalculatorTests.multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="FAIL" signature="multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="multiplicationOfDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" data-provider="multiplicationOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5365.1452]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.1547]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[829.98796244]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [829.98796244] but found [829.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [829.98796244] but found [829.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(CalculatorTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationOfDouble -->
+        <test-method status="PASS" signature="powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="powerOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="powerOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.36]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[218132.4266826]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiplicationOfDouble status=FAILURE method=CalculatorTests.multiplicationOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.multiplicationOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.powerOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.powerOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=powerOfDouble status=SUCCESS method=CalculatorTests.powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.powerOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="powerOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="powerOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.62947631990664E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.powerOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=powerOfDouble status=SUCCESS method=CalculatorTests.powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.powerOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="powerOfDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" data-provider="powerOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[28755.1458]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=powerOfDouble status=SUCCESS method=CalculatorTests.powerOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.powerOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="squarerootOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="squarerootOfDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" data-provider="squarerootOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56.125]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.4916620318858484]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squarerootOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.squarerootOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="squarerootOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="squarerootOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="squarerootOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[635.25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.20416632225712]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squarerootOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=squarerootOfDouble status=SUCCESS method=CalculatorTests.squarerootOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.squarerootOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.squarerootOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=squarerootOfDouble status=SUCCESS method=CalculatorTests.squarerootOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.squarerootOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.squarerootOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="squarerootOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="squarerootOfDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" data-provider="squarerootOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.25644]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5063990521318144]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squarerootOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=squarerootOfDouble status=SUCCESS method=CalculatorTests.squarerootOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.squarerootOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="sumOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="sumOfDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" data-provider="sumOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[198.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44701.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[44899.6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.sumOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sumOfDouble status=SUCCESS method=CalculatorTests.sumOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.sumOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.sumOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="sumOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="sumOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="sumOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[256.53]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6789.23654]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7045.76654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.sumOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sumOfDouble status=SUCCESS method=CalculatorTests.sumOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.sumOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="sumOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="sumOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="sumOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5365.1452]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.1547]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5365.2999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sumOfDouble status=SUCCESS method=CalculatorTests.sumOfDouble(double, double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.sumOfDouble(double,double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="tangentOfDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" data-provider="tangentOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.86]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21.16155585764]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.tangentOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="tangentOfDouble" duration-ms="2" started-at="2017-06-01T22:23:24Z" data-provider="tangentOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.365]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20.38212205846]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentOfDouble -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.tangentOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tangentOfDouble status=SUCCESS method=CalculatorTests.tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.tangentOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodName(java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodName" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.tangentOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodName -->
+        <test-method status="PASS" signature="tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="tangentOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" data-provider="tangentOfDouble" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.985]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-22.27459788602]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentOfDouble -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tangentOfDouble status=SUCCESS method=CalculatorTests.tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.tangentOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printMethodStatus(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printMethodStatus" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tangentOfDouble status=SUCCESS method=CalculatorTests.tangentOfDouble(double, double)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.calculatorTests.CalculatorTests.tangentOfDouble(double,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethodStatus -->
+        <test-method status="PASS" signature="printAfterClass()[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printAfterClass" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAfterClass -->
+        <test-method status="PASS" signature="printSuccessTests(org.testng.ITestContext)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printSuccessTests" is-config="true" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4973813a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSuccessTests -->
+      </class> <!-- com.epam.calculatorTests.CalculatorTests -->
+    </test> <!-- UnitTestsforCalculator -->
+    <test name="FailedTests" duration-ms="9" started-at="2017-06-01T16:53:24Z" finished-at="2017-06-01T16:53:24Z">
+      <class name="com.epam.calculatorTests.FailedTests">
+        <test-method status="FAIL" signature="cosineOfDouble()[pri:0, instance:com.epam.calculatorTests.FailedTests@598067a5]" name="cosineOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.calculatorTests.FailedTests.cosineOfDouble(FailedTests.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosineOfDouble -->
+        <test-method status="FAIL" signature="cotangentofDouble()[pri:0, instance:com.epam.calculatorTests.FailedTests@598067a5]" name="cotangentofDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.calculatorTests.FailedTests.cotangentofDouble(FailedTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cotangentofDouble -->
+        <test-method status="FAIL" signature="divideByZero()[pri:0, instance:com.epam.calculatorTests.FailedTests@598067a5]" name="divideByZero" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.calculatorTests.FailedTests.divideByZero(FailedTests.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideByZero -->
+        <test-method status="FAIL" signature="powerOfDouble()[pri:0, instance:com.epam.calculatorTests.FailedTests@598067a5]" name="powerOfDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.calculatorTests.FailedTests.powerOfDouble(FailedTests.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerOfDouble -->
+        <test-method status="FAIL" signature="productOfDouble()[pri:0, instance:com.epam.calculatorTests.FailedTests@598067a5]" name="productOfDouble" duration-ms="1" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.calculatorTests.FailedTests.productOfDouble(FailedTests.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productOfDouble -->
+        <test-method status="FAIL" signature="tangentofDouble()[pri:0, instance:com.epam.calculatorTests.FailedTests@598067a5]" name="tangentofDouble" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.calculatorTests.FailedTests.tangentofDouble(FailedTests.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tangentofDouble -->
+      </class> <!-- com.epam.calculatorTests.FailedTests -->
+      <class name="com.epam.calculatorTests.CalculatorTests">
+        <test-method status="PASS" signature="printSuiteName(org.testng.ITestContext)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printSuiteName" is-config="true" duration-ms="6" started-at="2017-06-01T22:23:23Z" finished-at="2017-06-01T22:23:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22a67b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSuiteName -->
+        <test-method status="PASS" signature="printSuiteNameAfterSuite(org.testng.ITestContext)[pri:0, instance:com.epam.calculatorTests.CalculatorTests@5c3bd550]" name="printSuiteNameAfterSuite" is-config="true" duration-ms="0" started-at="2017-06-01T22:23:24Z" finished-at="2017-06-01T22:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22a67b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSuiteNameAfterSuite -->
+      </class> <!-- com.epam.calculatorTests.CalculatorTests -->
+    </test> <!-- FailedTests -->
+  </suite> <!-- UnitTestsSuite -->
+</testng-results>
